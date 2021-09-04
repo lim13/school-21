@@ -1,7 +1,7 @@
 
 #include "push_swap.h"
 
-void pa(t_stack **a, t_stack **b, t_counter *count, int checker)
+void pa(t_stack **a, t_stack **b, t_params *count, int checker)
 {
     t_stack *buffer;
 

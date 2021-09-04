@@ -1,6 +1,6 @@
 NAME = push_swap
 
-SRC = sa.c sb.c ss.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c check_if_sorted.c
+SRC = sa.c sb.c ss.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c check_if_sorted.c push_swap.c
 
 DIR_SRC = srcs
 

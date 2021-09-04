@@ -12,17 +12,23 @@ typedef struct		s_stack
     struct s_stack	*next;
 }					t_stack;
 
-typedef struct      s_counter
+typedef struct      s_params
 {
+	t_stack			*a;
+	t_stack			*b;
     int             num_of_el_in_a;
     int             num_of_el_in_b;
-}                   t_counter;
+	int				min;
+	int				max;
+	int 			median;
+}                   t_params;
 
-typedef struct s_fill
+typedef struct 		s_fill
 {
-    int stack_a[10000];
-    int count;
-}               t_fill;
+    int 			stack_a[10000];
+    int 			count;
+}               	t_fill;
+
 
 
 void sa(t_stack **a, int checker);
