@@ -12,10 +12,10 @@
 
 #include "minitalk.h"
 
-static void ft_message_sending(int pid, char *message, int len)
+static void	ft_message_sending(int pid, char *message, int len)
 {
 	int	i;
-	int m;
+	int	m;
 
 	i = 0;
 	while (i < (len + 1))
@@ -34,9 +34,9 @@ static void ft_message_sending(int pid, char *message, int len)
 	}
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	int pid;
+	int	pid;
 
 	if (argc != 3)
 		ft_putstr("U have to enter: client    server_pid    message\n");

@@ -10,15 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #ifndef MINITALK_H
 # define MINITALK_H
 
-#include <signal.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <sys/types.h>
+# include <signal.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <stdio.h>
+# include <sys/types.h>
 
 void	ft_putstr(char *s);
 int		ft_atoi(const char *str);

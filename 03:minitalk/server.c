@@ -14,13 +14,13 @@
 
 typedef struct s_message
 {
-	char 	s;
+	char	s;
 	int		size;
 }				t_message;
 
-static t_message g_message;
+static t_message	g_message;
 
-static void ft_message_sending(int i)
+static void	ft_message_sending(int i)
 {
 	g_message.s += ((i & 1) << g_message.size);
 	g_message.size++;
@@ -34,10 +34,9 @@ static void ft_message_sending(int i)
 	}
 }
 
-
-int main()
+int	main(void)
 {
-	int pid;
+	int	pid;
 
 	g_message.s = 0;
 	g_message.size = 0;
@@ -48,7 +47,7 @@ int main()
 	while (1)
 	{
 		signal(SIGUSR2, ft_message_sending);
-		signal(SIGUSR1,ft_message_sending);
+		signal(SIGUSR1, ft_message_sending);
 		pause();
 	}
 }
