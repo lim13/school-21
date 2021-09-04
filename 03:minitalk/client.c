@@ -42,7 +42,7 @@ int	main(int argc, char **argv)
 		ft_putstr("U have to enter: client    server_pid    message\n");
 	else
 	{
-		pid = atoi(argv[1]);
+		pid = ft_atoi(argv[1]);
 		ft_message_sending(pid, argv[2], ft_strlen(argv[2]));
 	}
 	return (0);
