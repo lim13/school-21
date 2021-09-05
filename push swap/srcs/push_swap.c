@@ -14,8 +14,8 @@ static void ft_null_params(t_params *params)
 
 int main (int argc, char **argv)
 {
-    t_fill *created_list;
-	t_params *params;
+    t_fill      *created_list;
+	t_params    *params;
 
     if (argc < 2)
         exit(1);
@@ -27,7 +27,12 @@ int main (int argc, char **argv)
 	if (params == NULL)
 		exit(1);
 	ft_null_params(params);
-	if (ft_check_data(argc, argv))
+	if (ft_check_data(argc, argv) == 1)
+	{
+        ft_str_to_num_array(argc, argv, created_list);
+		ft_check_if_copies(created_list, params);
+
+	}
 
 }
 
