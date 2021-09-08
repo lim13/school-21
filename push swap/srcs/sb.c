@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-void sa(t_stack **b, int checker)
+void sb(t_stack **b, int checker)
 {
     int buffer;
 

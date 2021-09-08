@@ -1,6 +1,6 @@
 NAME = push_swap
 
-SRC = sa.c sb.c ss.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c check_if_sorted.c push_swap.c ft_check_data.c ft_str_to_num_array.c ft_check_if_copies.c ft_quicksort.c
+SRC = sa.c sb.c ss.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c ft_check_if_sorted.c push_swap.c ft_check_data.c ft_str_to_num_array.c ft_check_if_copies.c ft_quicksort.c ft_initialization.c ft_type_of_sorting.c ft_sort_any.c ft_min_el_position.c ft_find_right_pos.c
 
 DIR_SRC = srcs
 
@@ -17,7 +17,7 @@ LIBFT = libft.a
 DIR_LIBFT = libft
 
 CC				= gcc
-RM				= rm -f
+RM				= rm -rf
 CFLAGS			= -Wall -Wextra -Werror -g
 
 HEADER = push_swap.h
@@ -31,7 +31,7 @@ all: $(NAME)
 $(NAME): $(OBJ_PATH)
 	make -C $(DIR_LIBFT)
 	cp $(DIR_LIBFT)/$(LIBFT) .
-	$(CC) $(CFLAGS) -I $(DIR_HEADER) $(OBJ_PATH) -o $(NAME) $(LIBFT)
+	$(CC) $(CFLAGS) -I $(DIR_HEADER) $(LIBFT) $(OBJ_PATH) -o $(NAME)
 
 $(DIR_OBJ)/%.o: $(DIR_SRC)/%.c $(HEADER_PATH)
 	mkdir -p $(DIR_OBJ)
@@ -39,8 +39,8 @@ $(DIR_OBJ)/%.o: $(DIR_SRC)/%.c $(HEADER_PATH)
 
 
 clean:
-				$(RM) $(DIR_OBJS)
-				make clean -C $(DIR_LIBFT)
+				$(RM) $(DIR_OBJ)
+				make fclean -C $(DIR_LIBFT)
 
 fclean:			clean
 				$(RM) $(NAME)

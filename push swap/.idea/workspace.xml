@@ -17,12 +17,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fcaaf18-c945-45d7-9753-729ab3e8aeb8" name="Changes" comment="">
+    <list default="true" id="5fdcd8ba-f6eb-45b2-be1c-8f73ce672058" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/push_swap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/ft_check_data.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_check_data.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/libft/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/pa.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/pa.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/pb.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/pb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/ra.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/ra.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/rb.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/rb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/rr.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/rr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/rra.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/rra.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/rrb.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/rrb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/rrr.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/rrr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/sa.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/sa.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/sb.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/sb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/ss.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/ss.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push_swap_tester/tester.sh" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap_tester/tester.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/check_if_sorted.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/ft_check_if_copies.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_check_if_copies.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/ft_quicksort.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_quicksort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/ft_str_to_num_array.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_str_to_num_array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/pa.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/pa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/pb.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/pb.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcs/push_swap.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/push_swap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/rra.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/rra.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/rrb.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/rrb.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/sb.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/sb.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +90,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectId" id="1xiOZVXzqv7PtNF7or8oFQvyBhC" />
+  <component name="ProjectId" id="1xjZgZj0Z2Od6zGa9mUUrYOu7kL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -80,15 +103,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Makefile Application.all">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push swap" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" PROGRAM_PARAMS="&quot;152 193 177 123 126 190 163 157 196 149 118 139 113 172 182 158 186 121 166 197 141 153 117 119 178 146 127 115 124 148 105 189 100 110 128 174 116 103 134 102 176 194 169 185 187 195 171 140 192 137 145 179 131 167 144 125 162 104 184 120 168 1 70 143 161 106 108 111 156 181 114 130 154 107 155 133 165 160 129 183 138 101 180 188 147 142 164 175 136 173 135 109 191 150 151 132 159 122 112 199 198&quot;" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push swap" TARGET_NAME="all" CONFIG_NAME="all" version="1" RUN_PATH="$PROJECT_DIR$/push_swap">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
@@ -108,6 +132,11 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -123,18 +152,47 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fcaaf18-c945-45d7-9753-729ab3e8aeb8" name="Changes" comment="" />
-      <created>1630834497770</created>
+      <changelist id="5fdcd8ba-f6eb-45b2-be1c-8f73ce672058" name="Changes" comment="" />
+      <created>1630870571244</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1630834497770</updated>
-      <workItem from="1630834501277" duration="5644000" />
-      <workItem from="1630853601563" duration="528000" />
-      <workItem from="1630860294057" duration="1398000" />
+      <updated>1630870571244</updated>
+      <workItem from="1630870573017" duration="5217000" />
+      <workItem from="1630954936986" duration="9836000" />
+      <workItem from="1631051295469" duration="6838000" />
+      <workItem from="1631118679606" duration="10220000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/ft_sort_any.c</url>
+          <line>85</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/push_swap.c</url>
+          <line>62</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -35,7 +35,7 @@ void ft_str_to_num_array(int argc, char **argv, t_fill *created_list)
     i = 1;
     while (i < argc)
     {
-        j = -1;
+        j = 0;
         count = ft_count_numbers(argv[i]);
 		tmp = (int *)malloc(count * sizeof(int));
 		if (tmp == NULL)
@@ -43,18 +43,18 @@ void ft_str_to_num_array(int argc, char **argv, t_fill *created_list)
 		array = ft_split(argv[i], ' ');
 		while (j < count)
 		{
-			j++;
 			tmp[j] = ft_atoi(array[j]);
 			free (array[j]);
+			j++;
 		}
 		free(array);
 		k = -1;
-		while (k < count)
+		while (count > ++k)
 		{
-			k++;
-			created_list->stack_a[created_list->count + k] = tmp[i];
+			created_list->stack_a[created_list->count + k] = tmp[k];
 		}
 		created_list->count += count;
 		free(tmp);
+		i++;
     }
 }
