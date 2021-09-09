@@ -11,21 +11,19 @@
 /* ************************************************************************** */
 
 #include "push_swap.h"
-#include <unistd.h>
 
-void sa(t_stack **a, int checker)
+void	sa(t_stack **a, int checker)
 {
-    int buffer;
+	int	buffer;
 
-    buffer = 0;
-    if (*a == NULL)
-        return ;
-    if ((*a)->next == NULL)
-        return;
-    buffer = (*a)->data;
-    (*a)->data = (*a)->next->data;
-    (*a)->next->data = buffer;
-    if (checker == 1)
-        write(1, "sa\n", 3);
+	buffer = 0;
+	if (*a == NULL)
+		return ;
+	if ((*a)->next == NULL)
+		return ;
+	buffer = (*a)->data;
+	(*a)->data = (*a)->next->data;
+	(*a)->next->data = buffer;
+	if (checker == 1)
+		write(1, "sa\n", 3);
 }
-

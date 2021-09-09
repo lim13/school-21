@@ -21,7 +21,8 @@ int	ft_atoi(const char *str)
 	sign = 1;
 	n = 0;
 	i = 0;
-	if ((str[i] <= 47 || str[i] >= 58) && str[i] != '\t' && str[i] != '\n' && str[i] != '\v' && str[i] != '\f' \
+	if ((str[i] <= 47 || str[i] >= 58) && str[i] != '\t' && str[i] != '\n' && \
+			str[i] != '\v' && str[i] != '\f' \
 			&& str[i] != '\r' && str[i] != ' ' && str[i] != 45 && str[i] != 43)
 		return (0);
 	while (str[i] == '\t' || str[i] == '\n' || str[i] == '\v' || str[i] == '\f' \

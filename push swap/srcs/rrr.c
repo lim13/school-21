@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   rrr.c                                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: cdwyynen <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/09 20:43:17 by cdwyynen          #+#    #+#             */
+/*   Updated: 2021/09/09 20:43:19 by cdwyynen         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
-void rrr(t_stack **a, t_stack **b, int checker)
+void	rrr(t_stack **a, t_stack **b, int checker)
 {
-    rra(a, 0);
-    rrb(b, 0);
-    if (checker == 1)
-        write(1, "rrr\n", 3);
+	rra(a, 0);
+	rrb(b, 0);
+	if (checker == 1)
+		write(1, "rrr\n", 3);
 }

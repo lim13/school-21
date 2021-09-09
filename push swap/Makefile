@@ -1,6 +1,9 @@
 NAME = push_swap
 
-SRC = sa.c sb.c ss.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c ft_check_if_sorted.c push_swap.c ft_check_data.c ft_str_to_num_array.c ft_check_if_copies.c ft_quicksort.c ft_initialization.c ft_type_of_sorting.c ft_sort_any.c ft_min_el_position.c ft_find_right_pos.c
+SRC = sa.c sb.c ss.c pa.c pb.c ra.c rb.c rr.c rra.c rrb.c rrr.c ft_check_if_sorted.c \
+		push_swap.c ft_check_data.c ft_str_to_num_array.c ft_check_if_copies.c \
+		ft_quicksort.c ft_initialization.c ft_type_of_sorting.c ft_sort_any.c \
+		ft_min_el_position.c ft_find_right_pos.c ft_inst_ex.c
 
 DIR_SRC = srcs
 

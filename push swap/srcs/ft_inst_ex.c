@@ -1,33 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ra.c                                               :+:      :+:    :+:   */
+/*   ft_inst_ex.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cdwyynen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/09 20:38:47 by cdwyynen          #+#    #+#             */
-/*   Updated: 2021/09/09 20:38:49 by cdwyynen         ###   ########.fr       */
+/*   Created: 2021/09/09 22:28:37 by cdwyynen          #+#    #+#             */
+/*   Updated: 2021/09/09 22:28:39 by cdwyynen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ra(t_stack **a, int checker)
+void	ft_inst_ex(t_params *params, t_moves *moves)
 {
-	t_stack	*buffer1;
-	t_stack	*buffer2;
-	t_stack	*buffer3;
-
-	if (*a == NULL || (*a)->next == NULL)
-		return ;
-	buffer1 = *a;
-	buffer2 = (*a)->next;
-	buffer3 = *a;
-	while (buffer3->next != NULL)
-		buffer3 = buffer3->next;
-	buffer1->next = NULL;
-	buffer3->next = buffer1;
-	*a = buffer2;
-	if (checker == 1)
-		write (1, "ra\n", 3);
+	while (moves->a_count > 0)
+	{
+		if (moves->a_pos == 1)
+			ra(&params->a, 1);
+		else
+			rra(&params->a, 1);
+		moves->a_count--;
+	}
+	while (moves->b_count > 0)
+	{
+		if (moves->b_pos == 1)
+			rb(&params->b, 1);
+		else
+			rrb(&params->b, 1);
+		moves->b_count--;
+	}
+	pa(params, 1);
 }
