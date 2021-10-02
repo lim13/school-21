@@ -1,6 +1,6 @@
 NAME = philo
 
-SRC = philo.c
+SRC = philo.c ft_philosophers_threads.c ft_atoi.c ft_waiter.c
 DIR_SRC = srcs
 SRC_PATH = $(addprefix $(DIR_SRC)/, $(SRC))
 
